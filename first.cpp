@@ -1,6 +1,6 @@
 #include <iostream>
 
-i main()
+int main()
 {
   std::cout << "First  c make test program" << std::endl;
 } 
