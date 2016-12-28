@@ -3,7 +3,7 @@
 #include <iterator>
 #include <algorithm>
 
-int main()
+i main()
 {
   typedef std::istream_iterator<int> in;
 
