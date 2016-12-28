@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.12)
 project(Hello CXX)
 find_package( Boost 1.61 COMPONENTS system filesystem REQUIRED)
-add_executable(Hello boost_hello.cpp)
+add_executable(Hello first.cpp)
 target_link_libraries(Hello ${Boost_LIBRARIES})
