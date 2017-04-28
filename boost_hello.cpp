@@ -1,4 +1,4 @@
-#include <boost/lambda/lambda.hpp>
+#incluje <boost/lambda/lambda.hpp>
 #include <iostream>
 #include <iterator>
 #include <algorithm>
@@ -6,6 +6,7 @@
 int main()
 {
   typedef std::istream_iterator<int> in;
+
 
   std::cout << "Type in any number ";
 
